@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-agent-hierarchical-episodic-memory-skill"
+version = "1.0.0"
+description = "Cognitive multi-tier memory kernel managing working scratchpad, sliding dialogue buffer, and episodic memories with exponential recency decay."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "GenPark AI", email = "engineering@genpark.ai"}]
+keywords = ["ai-agent", "mcp", "memory", "rag", "zero-dependency"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://genpark.ai/mcp"
+Repository = "https://github.com/alphaparkinc/genpark-agent-hierarchical-episodic-memory-skill"
