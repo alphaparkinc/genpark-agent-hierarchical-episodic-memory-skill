@@ -1,0 +1,38 @@
+{
+  "name": "genpark-agent-hierarchical-episodic-memory-skill",
+  "version": "1.0.0",
+  "description": "Cognitive multi-tier memory kernel managing working scratchpad, sliding dialogue buffer, and episodic memories with exponential recency decay.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "memory",
+    "episodic-memory",
+    "agent-architecture",
+    "recency-decay",
+    "cognitive-agent",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "set_working_memory",
+      "description": "Set a key-value pair in active working memory scratchpad."
+    },
+    {
+      "name": "record_turn",
+      "description": "Record a conversation turn into short-term memory buffer."
+    },
+    {
+      "name": "consolidate_summary",
+      "description": "Consolidate an episodic summary into long-term memory store."
+    },
+    {
+      "name": "recall",
+      "description": "Retrieve episodic memories using combined relevance, recency decay, and importance scoring."
+    },
+    {
+      "name": "run_benchmark_hierarchical_memory",
+      "description": "Execute comprehensive hierarchical memory verification benchmark."
+    }
+  ]
+}
