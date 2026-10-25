@@ -1,8 +1,4 @@
-# Smithery configuration for GenPark AI Agent MCP Server
-version: 1
-startCommand:
-  type: stdio
-  config:
-    command: python
-    args:
-      - mcp_server.py
+name: genpark-agent-hierarchical-episodic-memory-skill
+version: 1.0.0
+runtime: python
+entrypoint: mcp_server.py
